@@ -1,0 +1,2 @@
+Pour acceder au site, il faut ouvrir le fichier qui se nomme "site"
+Le fichier image contient toute les images présent dans le sites, il ne faut pas les déplacer

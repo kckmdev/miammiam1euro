@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+.Logo img{
+    width: 125px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1800px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    width: 100%;
+    padding: 26px 0;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0 ;
+}
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #1189eb;
+    color:#fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+.col-2 a:hover{
+    background: #054479;
+}
+p{
+    color: #555;
+}
+.header-section{
+    margin-top: -20px;
+    background: radial-gradient(#fff,#eaf2fb);
+}
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 26%;
+    min-width: 250px;
+    margin: auto;
+}
+.col-3 img{
+    width: 90%;
+}
+
+.container h2{
+    text-align:center;
+    font-size: 2.2rem;
+    color:#444;
+    margin: 50px 0 ;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+.col-4 img{
+    width:100%;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.row a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #1973e9;
+    color:#fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+.row a:hover{
+    background: #054479;
+}
+.rating .fa{
+    color: #1189eb;
+
+}
+
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container2{
+	max-width: 1170px;
+	margin:auto;
+}
+.row2{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+
